@@ -1,0 +1,56 @@
+/*----------------------Efeito Botoes Laterais--------------------*/
+nav:hover p{
+    opacity: 1;
+    width: 100%;
+}
+.house:hover{
+    border-radius: 100px;
+    width: 120px;
+    background-image: url('assets/house_white.svg');
+    background-color: rgb(95, 95, 201);
+    fill: white;
+    box-shadow: 1px 3px 0px 1px rgb(67, 63, 250);
+}
+.perfil:hover{
+    background-image: url('assets/white_user\ \(2\).svg');
+    border-radius: 100px;
+    width: 120px;
+    background-color: rgb(95, 95, 201);
+    transition: 0.2s;
+    box-shadow: 1px 3px 0px 1px rgb(67, 63, 250);
+}
+
+.resumo:hover{
+    border-radius: 100px;
+    width: 120px;
+    background-image: url('assets/white_note.svg');
+    background-color: rgb(95, 95, 201);
+    transition: 0.2s;
+    box-shadow: 1px 3px 0px 1px rgb(67, 63, 250);
+}
+.projetos:hover{
+    border-radius: 100px;
+    width: 130px;
+    background-image: url('assets/white_maleta.svg');
+    background-color: rgb(95, 95, 201);
+    transition: 0.2s;
+    box-shadow: 1px 3px 0px 1px rgb(67, 63, 250);
+    font-size: 10px;
+}
+.email:hover{
+    border-radius: 100px;
+    width: 130px;
+    background-image: url('assets/white_email.svg');
+    background-color: rgb(95, 95, 201);
+    transition: 0.2s;
+    box-shadow: 1px 3px 0px 1px rgb(67, 63, 250);
+    font-size: 10px;
+}
+.linkedin:hover{
+    background-image: url('assets/linkedin-blue.svg');
+    transition: ease 0.7s;
+}
+.github:hover{
+    background-image: url('assets/github-blue.svg');
+    transition: ease 0.7s;
+}

@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Raleway", sans-serif;
+}
+/*------------------------------------Primeira Parte---------------*/
+.sou{
+    font-size: 30px;
+    margin-left: 18%;
+    font-family: "Raleway", sans-serif;
+    color: #45505b;
+    font-weight: 0;
+    animation: sla 3s steps(30, end), sla2 0.5s step-end infinite;
+
+}
+.euu{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -177px;
+    height: 81%;
+    opacity: 0.7;
+}
+.eu{
+    font-size: 60px;
+    vertical-align: inherit;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #45505b;
+    margin: 200px 0px 0px 240px;
+} 
+nav{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: (228, 227, 227);
+    margin: -15px 0px 0px 20px;
+    position: fixed;    
+    cursor: pointer;
+    padding: -10px 0px 0px 0px;
+}
+nav div{
+    background-color: rgb(209, 209, 209);
+    width: 55px;
+    height: 55px;
+    transition: 0.2s;
+    z-index: 1;
+}
+nav p{
+    color: white;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 15px;
+    position: absolute;
+    transition: 0.2s;
+    z-index: 0;
+    overflow: hidden;
+    animation: 2.0s ease;
+    opacity: 0;
+
+}
+.redes{
+    font-size: 0;
+    margin: 0;
+    padding: 0%;
+    margin-left: 240px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.linkedin{
+    background-image: url('assets/linkedin.svg');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.github{
+    background-image: url('assets/icons8-github.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    height: 60px;
+    width: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-left: 10px;
+}
+/*----------------------------Botoes------------------------*/
+.house{
+
+    background-image: url('assets/black_house.svg') ;
+    background-color: rgb(228, 227, 227);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 15px 13px;   
+    border-radius: 100%;
+    stroke-width: 4px;   
+}
+.perfil{
+    margin: 10px 0px 0px 0px;
+    background-image: url('assets/black_user\ \(2\).svg');
+    background-color: rgb(228, 227, 227);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 17px 14px;
+    height: 55px;
+    width: 55px;    
+    border-radius: 100%;
+}
+.resumo{
+    background-image: url('assets/black_note.svg');
+    background-color: rgb(209, 209, 209);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 19px 15px;
+    height: 55px;
+    width: 55px;    
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.projetos{
+    margin-top: 10px;
+    background-image: url('assets/black_maleta.svg');
+    background-color: rgb(209, 209, 209);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 15px 13px;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    font-size: 10px;
+}
+.email{
+    margin-top: 10px;
+    background-image: url('assets/black_email.svg');
+    background-color: rgb(209, 209, 209);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 15px 13px;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    font-size: 10px;
+}
+/*--------------------------Sobre------------------------*/
+.sobre{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
